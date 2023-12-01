@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shanmugapriya P</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about"> About</a></li>
+          <li><a href="#Experience">Experience </a></li>
+          <li><a href="#Projects">Projects </a></li>
+          <li><a href="#Contact"> Contact </a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Shanmugapriya P</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu-links">
+          <ul class="nav-links">
+            <li><a href="#about" onclick="toggleMenu()"> About</a></li>
+            <li>
+              <a href="#experience" onclick="toggleMenu()">Experience </a>
+            </li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects </a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="sec-pic-container">
+        <img src="./assests/Photo.jpeg" alt="profile-pic" />
+      </div>
+      <div class="sec-text">
+        <p class="sec-text-p1">Hello I'm</p>
+        <h1 class="title">Shanmugapriya</h1>
+        <p class="sec-text-p2">MERN Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assests/Shanmu-MERN.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#Contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="social-container">
+          <img
+            src="./assests/icons8-linkedin-60.png"
+            alt="My Linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/shanmugapriya-p-06b69079/'"
+          />
+          <img
+            src="./assests/icons8-github-48.png"
+            alt="My GitHub profile"
+            class="icon"
+            onclick="location.href= 'https://github.com/shanmugappriyaa/shanmugapriyaa' "
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="sec-text-p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+       
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assests/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Certification</h3>
+              <p>GUVI<br />MERN Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assests/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Dedicated and passionate Full stack developer with solid foundation in web
+              development backed by the successful completion of rigorous 6-month Full stack
+              development program at GUVI. Eager to leverage this comprehensive training to
+              contribute to innovative projects and drive technological advancements in the
+              field.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="sec-test-p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Redux</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML5/CSS3</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container ">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class=".sec-text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/e-commerce.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E-Commerce</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shanmugappriyaa/ecommerce-fe'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://shan-ecom.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/login.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Authentication</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shanmugappriyaa/Auth-FE/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://shanmu-react-auth.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assests/dice.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dice Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shanmugappriyaa/DiceGame/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://dice-game-with-2-players.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="Contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assests/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:pshanmu.priya93@gmail.com"
+              >pshanmu.priya93@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assests/icons8-linkedin-60.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
