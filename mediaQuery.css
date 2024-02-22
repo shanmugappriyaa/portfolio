@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .about-containers {
     flex-wrap: wrap;
   }
